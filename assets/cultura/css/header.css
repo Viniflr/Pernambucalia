@@ -1,0 +1,80 @@
+/* HEADER CSS */
+
+@font-face {
+    font-family: Xilosa;
+    src: url(/assets/fonts/xilosa_.ttf);
+}
+
+@font-face {
+    font-family: Anzylna;
+    src: url(/assets/fonts/Anzylna.ttf);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: #435B8E;
+    font-family: Xilosa;
+    color: #fff;
+    padding: 0px 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.815);
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    margin: 0;
+}
+
+.logo p {
+    font-size: 2.5rem; /* Tamanho ajustado para responsividade */
+    margin: 0;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list ul {
+    display: flex;
+    gap: 4rem; /* Espaçamento mais consistente */
+}
+
+.nav-list li {
+    list-style: none;
+}
+
+.nav-list a {
+    text-decoration: none;
+    font-size: 1.75rem;
+    color: #fff;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}

@@ -1,0 +1,101 @@
+.infos-bandeira-pe {
+    background-image: url('../img/fundoPapel.png');
+    background-size: auto;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.bandeira-geral {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+
+.titulo-bandeira {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+
+    font-family: Xilosa;
+    font-size: 45px;
+    gap: 10px;
+}
+
+#parte-azul {
+    color: #435B8E;
+}
+
+.bandeira {
+    display: flex;
+    flex-direction: row;
+}
+
+.bandeira img {
+    width: 550px;
+    height: auto;
+}
+
+.desc-bandeira {
+    display: flex;
+    flex-direction: column;
+
+    gap: 40px;
+    margin-top: 120px;
+    margin-left: 40px;
+}
+
+.desc-bandeira p {
+    font-family: Xilosa;
+    font-size: 40px;
+}
+
+#ceu {
+    color: #153676;
+}
+
+/* DESCRIÇÃO DOS SIMBOLOS DA BANDEIRA */
+
+.detalhe-bandeira {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    gap: 10px;
+}
+
+.symbol {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.symbol img {
+    width: 75px;
+    height: auto;
+    margin-right: 20px;
+}
+
+#cruz {
+    width: 45px;
+    height: auto;
+
+    margin-left: 0;
+}
+
+.description h2 {
+    font-family: Xilosa;
+    font-size: 35px;
+    margin: 0;
+    color: #000;
+}
+
+.description p {
+    font-family: Anzylna;
+    font-size: 35px;
+    margin: 5px 0 0;
+    color: #555;
+}

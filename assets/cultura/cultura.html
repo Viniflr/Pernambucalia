@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pernambucália</title>
+
+    <link rel="stylesheet" href="../cultura/css/header.css">
+    <link rel="stylesheet" href="../cultura/css/banner.css">
+    <link rel="stylesheet" href="../cultura/css/bandeira.css">
+    <link rel="stylesheet" href="../cultura/css/leao.css">
+    <link rel="stylesheet" href="/assets/mobile/mobile.css">
+</head>
+<body>
+
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <img src="img/logo.png" alt="Logo">
+                <p>Pernambucália</p>
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="/assets/evento/index.html" class="nav-link">Evento</a></li>
+                    <li class="nav-item"><a href="/assets/cultura/cultura.html" class="nav-link">Cultura</a></li> 
+                </ul>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="/assets/img/menu.png" alt="menu"></button>
+            </div>
+        </nav>
+
+        <!-- Menu para dispositivos móveis -->
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                <div id="linha"></div>
+                <li class="nav-item"><a href="#" class="nav-link">Atrações</a></li>
+                <div id="linha"></div>
+                <li class="nav-item"><a href="#" class="nav-link">Organizadores</a></li>
+                <div id="linha"></div>
+                <li class="nav-item"><a href="#" class="nav-link">Linha do tempo</a></li>
+                <div id="linha"></div>
+                <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="banner">
+        <!--banner web-->
+        <div class="banner-web">
+            <img src="/assets/img/banner1.png" alt="Bandeira de Pernambuco">
+        </div>
+
+        <!--banner mobile-->
+        <div class="banner-mobile">
+            <img src="/assets/img/banner1-mobile.png" alt="Bandeira versão mobile">
+        </div>
+    </section>
+
+    <!--Bandeira de pernambuco-->
+    <section class="infos-bandeira-pe">
+        <div class="titulo-bandeira">
+            <p>A BANDEIRA DE</p>
+            <p id="parte-azul">PERNAMBUCO</p>
+        </div>
+
+        <section class="bandeira-geral">
+            <div class="bandeira">
+                <div class="img-bandeira">
+                    <img src="/assets/img/bandeiraPe.png" alt="Bandeira">
+                </div>
+
+                <div class="desc-bandeira">
+                    <p id="ceu">CÉU</p>
+                    <p>PAZ</p>
+                </div>
+            </div>
+
+            <div class="detalhe-bandeira">
+                <div class="symbol">
+                    <img src="/assets/img/estrela.png" alt="Estrela">
+                    <div class="description">
+                        <h2>Estrela</h2>
+                        <p>Pernambuco disposta no céu da bandeira brasileira</p>
+                    </div>
+                </div>
+            
+                <div class="symbol">
+                    <img src="/assets/img/arcoiris.png" alt="Arco-íris">
+                    <div class="description">
+                        <h2>Arco-íris</h2>
+                        <p>A união dos Pernambucanos</p>
+                    </div>
+                </div>
+            
+                <div class="symbol">
+                    <img src="/assets/img/sol.png" alt="Sol">
+                    <div class="description">
+                        <h2>Sol</h2>
+                        <p>A força e energia do estado</p>
+                    </div>
+                </div>
+            
+                <div class="symbol">
+                    <img src="/assets/img/cruz.png" alt="Cruz">
+                    <div class="description">
+                        <h2>Cruz</h2>
+                        <p>A fé cristã na justiça</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+
+    <!--Descrição Leão-->
+    <section class="leao">
+
+        <div class="conteudo">
+
+            <img src="/assets/img/leão.png" alt="Leão do norte" width="390" height="540">
+
+            <div class="infos">
+
+                <div class="titulo-leao">
+
+                    <h3>Como surgiu o Leão do Norte?</h3>
+
+                </div>
+
+                <div class="texto-leao">
+
+                    <p>O termo "Leão do Norte" é popularmente associado ao Hino de Pernambuco, que<br>exalta o estado como um baluarte de coragem e liderança no Nordeste brasileiro. No<br>hino, há uma menção ao "Leão do Norte", que representa a força e a bravura do<br>povo pernambucano. A letra enfatiza a luta por liberdade e os movimentos históricos<br>de resistência que marcaram o estado.</p>
+
+                    <p>O termo "Leão do Norte" é popularmente associado ao Hino de Pernambuco, que<br>exalta o estado como um baluarte de coragem e liderança no Nordeste brasileiro. No<br>hino, há uma menção ao "Leão do Norte", que representa a força e a bravura do<br>povo pernambucano. A letra enfatiza a luta por liberdade e os movimentos históricos<br>de resistência que marcaram o estado.</p>
+
+                </div>
+
+                <div class="detalhes">
+                    <h4>Mais detalhes</h4>
+                    <div id="seta">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z"/></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!--Principais Estados-->
+    <section>
+
+        <div class="estado">
+
+            <div class="titulo-estado">
+                <h3>As principais culturas do estado</h3>
+            </div>
+
+            <div class="mapa-estados">
+                <img src="#" alt="mapa-estados">
+            </div>
+
+            <section>
+
+                <details>
+                    <summary>Região Metropolitana</summary>
+                    <p>O termo "Leão do Norte" é popularmente associado ao Hino de Pernambuco, que exalta o estado como um baluarte de coragem e liderança no Nordeste brasileiro. No hino, há uma menção ao "Leão do Norte", que representa a força e a bravura do povo pernambucano.</p>
+                </details>
+
+                <details>
+                    <summary>Região Zona da Mata</summary>
+                    <p>É uma das regiões mais férteis de Pernambuco e lá foram introduzidos os primeiros engenhos de açúcar no século XVI. Sua principal atividade econômica é a agroindústria canavieira, presente desde a época da colonização. Também tem importância na produção calçadista (de calçados), artesanal e na produção de açúcar e álcool.</p>
+                </details>
+
+                <details>
+                    <summary>Região Agreste</summary>
+                    <p>Localizado numa zona de transição entre a Zona da Mata e o Sertão, se divide em Agreste Meridional, Agreste Central e Agreste Setentrional.
+                    Caruaru, conhecida como “A Capital do Forró”, é um importante polo de produção de artesanato. A cidade é famosa pelas produções de cerâmica em barro vermelho e suas peças são feitas à mão e decoradas com desenhos geométricos e cenas do cotidiano. Além disso, no Agreste também há grande produção de produtos têxteis e agricultura principalmente de produtos mais tradicionais, como o milho, o algodão e a palma.</p>
+                </details>
+
+                <details>
+                    <summary>Região Sertão</summary>
+                    <p>falta terminar</p>
+                </details>
+
+                <details>
+                    <summary>Região São Francisco</summary>
+                    <p>Fica no centro-sul de Pernambuco, circundada pela margem esquerda do rio São Francisco. Na sua porção mais seca, a economia predomina com a pecuária bovina extensiva de corte. Na porção sul, mais perto do rio, são produzidas culturas irrigadas, o que incentiva a instalação de agroindústrias na região.</p>
+                </details>
+
+            </section>
+
+        </div>
+
+    </section>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

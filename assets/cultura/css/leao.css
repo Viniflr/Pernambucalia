@@ -1,0 +1,58 @@
+.leao {
+    background-image: url('../img/fundo-xilogravura.png');
+    background-size: cover;
+
+    background-repeat: no-repeat;
+}
+
+
+.conteudo{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+
+    margin: 75px 75px 75px 75px;
+}
+
+
+.titulo-leao{
+    font-family: xilosa;
+    font-size: 45px;
+    color: #C35251;
+    opacity: 75%;
+}
+
+.texto-leao{
+    font-family: anzylna;
+    font-size: 35px;
+    color: #211A13;
+    opacity: 75%;
+}
+
+.infos{
+    margin-left: 85px ;
+}
+
+.detalhes {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-items: center;
+
+    gap: 15px;
+
+    font-family: Xilosa;
+    font-size: 27px;
+   
+    color: black;
+}
+
+#seta {
+    display: flex;
+
+    width: 30px;
+    height: auto;
+}
