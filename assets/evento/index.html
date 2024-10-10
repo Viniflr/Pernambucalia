@@ -13,48 +13,37 @@
 
     <header>
         <nav class="nav-bar">
-            <div class="logo">
-                <img src="/assets/img/logo.png" alt="Logo">
+            <div class="logo-texto">
+                <div class="menu-icon">
+                    <button onclick="menuShow()"><img class="icon" src="../evento/img/menu.png" alt="menu"></button>
+                </div>
                 <p>Pernambucália</p>
             </div>
 
-            <div class="nav-list">
+            <div class="logo">
+                <img src="../evento/img/logo.png" alt="Logo">
+            </div>
+
+            <div id="menu" class="side-menu">
                 <ul>
-                    <li class="nav-item"><a href="/assets/evento/index.html" class="nav-link">Evento</a></li>
-                    <li class="nav-item"><a href="/assets/cultura/cultura.html" class="nav-link">Cultura</a></li> 
+                    <li><a href="#evento">O evento</a></li>
+                    <li><a href="#atracoes">Atrações</a></li>
+                    <li><a href="#culturas">Culturas</a></li>
+                    <li><a href="#curadoria">Curadoria</a></li>
+                    <li><a href="#organizadores">Organizadores</a></li>
+                    <li><a href="#equipe">Equipe</a></li>
                 </ul>
+                <div class="llama">
+                    <img id="llama-img" src="../evento/img/llama.png" alt="Llama">
+                </div>
             </div>
-
-            <div class="mobile-menu-icon">
-                <button onclick="menuShow()"><img class="icon" src="/assets/img/menu.png" alt="menu"></button>
-            </div>
-        </nav>
-
-        <!-- Menu para dispositivos móveis -->
-        <div class="mobile-menu">
-            <ul>
-                <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
-                <div id="linha"></div>
-                <li class="nav-item"><a href="#" class="nav-link">Atrações</a></li>
-                <div id="linha"></div>
-                <li class="nav-item"><a href="#" class="nav-link">Organizadores</a></li>
-                <div id="linha"></div>
-                <li class="nav-item"><a href="#" class="nav-link">Linha do tempo</a></li>
-                <div id="linha"></div>
-                <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
-            </ul>
-        </div>
+        </nav>  
     </header>
     
     <section class="banner">
         <!--banner web-->
         <div class="banner-web">
-            <img src="/assets/img/banner1.png" alt="Bandeira de Pernambuco">
-        </div>
-
-        <!--banner mobile-->
-        <div class="banner-mobile">
-            <img src="/assets/img/banner1-mobile.png" alt="Bandeira versão mobile">
+            <img src="../evento/img/banner1.png" alt="Bandeira de Pernambuco">
         </div>
     </section>
 
