@@ -1,0 +1,51 @@
+.slider {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 100px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    max-width: 1100px;
+    position: relative;
+}
+
+.wrapper i {
+    top: 50%;
+    cursor: pointer;
+    position: absolute;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 46px;
+
+    transform: translateY(-50%);
+}
+
+.wrapper i:first-child {
+    left: -40px;
+}
+
+.wrapper i:last-child {
+    right: -40px;
+}
+
+.wrapper .carrosel {
+    font-size: 0;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.carrosel img {
+    height: 300px;
+    object-fit: cover;
+    margin-left: 20px;
+    width: calc(100% / 3);
+}
+
+.carrosel img:first-child {
+    margin-left: 0;
+}

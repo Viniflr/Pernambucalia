@@ -1,0 +1,53 @@
+.evento {
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Xilosa';
+
+    background-image: url('../img/fundo-familia.png');
+    background-size: cover;
+}
+
+#evento-img {
+    width: 300px;
+    height: auto;
+
+    margin-left: 170px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.mostra-cultural {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-around;
+}
+
+.desc-geral-mostra {
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+}
+
+#oque-mostra-cultural {
+    font-size: 50px;
+    color: #CC7776;
+
+    margin: 0;
+}
+
+#desc-amostra {
+    font-family: 'Anzylna';
+    font-size: 35px;
+    color: #000;
+
+    margin: 0;
+}
+
+.mostra-cultural img {
+    width: 448px;
+    height: 448px;
+}
