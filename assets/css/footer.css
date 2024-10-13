@@ -1,0 +1,101 @@
+footer {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-evenly;
+
+    background-color: #435B8E;
+    padding: 100px;
+}
+
+.logos-footer {
+    flex-direction: column;
+}
+
+#logos-footer-img {
+    width: 180px;
+    height: auto;
+}
+
+.divider {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ffffff;
+}
+
+#llama-footer-img {
+    width: 300px;
+    height: auto;
+
+    align-self: center;
+}
+
+.topicos {
+    display: flex;
+    flex-direction: row;
+
+    gap: 200px;
+}
+
+.topicos-ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.topicos-ul p {
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 500;
+    color: white;
+}
+
+.topicos-ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.topicos-ul ul {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+
+    margin-top: 20px;
+
+    list-style: none;
+}
+
+.topicos-ul ul li {
+    line-height: 50px;
+}
+
+.topicos-ul a :hover {
+    text-decoration: underline;
+}
+
+.topicos-social {
+    display: flex;
+    flex-direction: column;
+}
+
+.topicos-social p {
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 500;
+    color: white;
+}
+
+.topicos-social svg {
+    width: 3rem;
+    height: auto;
+
+    justify-content: center;
+    align-items: center;
+
+    transition: ease 0.2s;
+}
+
+.topicos-social a :hover {
+    width: 2.8rem;
+}

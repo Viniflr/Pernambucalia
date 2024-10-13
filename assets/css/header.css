@@ -9,6 +9,8 @@ header {
     color: #fff;
     padding: 0 20px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.815);
+
+    width: 100%;
 }
 
 .nav-bar {

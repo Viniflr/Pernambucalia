@@ -1,108 +1,37 @@
-function mostrar_dias(){
+var btn_quinta = document.querySelector('#quinta');
+var btn_sexta = document.querySelector('#sexta');
 
-    document.getElementById("cronograma").innerHTML = `<ul id="one">
+var cronograma = document.querySelector('#cronograma');
+var cronograma2 = document.querySelector('#cronograma2');
 
-                        <li class="eventos">
-                            <div class="horario">
-                                <p class="text-maior">80</p>
-                                <p class="text-menor">90</p>
-                            </div>
-            
-                            <div class="infos">
-                                <p class="text-maior">Apresentação de abertura</p>
-                                <p class="text-menor" >Área de convivência</p>
-                            </div>
-                        </li>
-            
-                        <li class="eventos">
-                            <div class="horario">
-                                <p class="text-maior">80</p>
-                                <p class="text-menor" >90</p>
-                            </div>
-            
-                            <div class="infos">
-                                <p class="text-maior">Apresentação de abertura</p>
-                                <p class="text-menor" >Área de convivência</p>
-                            </div>
-                        </li>
-            
-                        <li class="eventos">
-                            <div class="horario">
-                                <p class="text-maior" >80</p>
-                                <p class="text-menor" >90</p>
-                            </div>
-            
-                            <div class="infos">
-                                <p class="text-maior">Apresentação de abertura</p>
-                                <p class="text-menor">Área de convivência</p>
-                            </div>
-                        </li>
-            
-                        <li class="eventos">
-                            <div class="horario">
-                                <p class="text-maior">80</p>
-                                <p class="text-menor" >90</p>
-                            </div>
-            
-                            <div class="infos">
-                                <p class="text-maior">Apresentação de abertura</p>
-                                <p class="text-menor">Área de convivência</p>
-                            </div>
-                        </li>
-            
-                    </ul>`
-};
 
-function mostrar_dias(){
+btn_quinta.addEventListener('click', function(){
 
-    document.getElementById("cronograma2").innerHTML = `<ul id="two">
-                        <li class="eventos2">
-                            <div class="horario2">
-                                <p class="text-maior">80</p>
-                                <p class="text-menor" >90</p>
-                            </div>
-            
-                            <div class="infos">
-                                <p class="text-maior">Apresentação de abertura</p>
-                                <p class="text-menor" >Área de convivência</p>
-                            </div>
-                        </li>
-            
-                        <li class="eventos2">
-                            <div class="horario2">
-                                <p class="text-maior">80</p>
-                                <p class="text-menor" >90</p>
-                            </div>
-            
-                            <div class="infos">
-                                <p class="text-maior">Apresentação de abertura</p>
-                                <p class="text-menor" >Área de convivência</p>
-                            </div>
-                        </li>
-            
-                        <li class="eventos2">
-                            <div class="horario2">
-                                <p class="text-maior">80</p>
-                                <p class="text-menor" >90</p>
-                            </div>
-            
-                            <div class="infos">
-                                <p class="text-maior">Apresentação de abertura</p>
-                                <p class="text-menor" >Área de convivência</p>
-                            </div>
-                        </li>
-                        
-                        <li class="eventos2">
-                            <div class="horario2">
-                                <p class="text-maior">80</p>
-                                <p class="text-menor" >90</p>
-                            </div>
-            
-                            <div class="infos">
-                                <p class="text-maior">Apresentação de abertura</p>
-                                <p class="text-menor" >Área de convivência</p>
-                            </div>
-                        </li>
-                    </ul>
-`
-};
+
+    if(cronograma2.style.display === 'block'){
+        cronograma2.style.display = 'none';
+    }
+
+    if(cronograma.style.display === 'block'){
+        cronograma.style.display = 'none';
+    } else{
+        cronograma.style.display = 'block';
+    }
+
+
+});
+
+
+btn_sexta.addEventListener('click', function(){
+
+    if(cronograma.style.display === 'block'){
+        cronograma.style.display = 'none';
+    } 
+
+    if(cronograma2.style.display === 'none'){
+        cronograma2.style.display = 'block';
+    } else{
+        cronograma2.style.display = 'none';
+    }
+
+});
