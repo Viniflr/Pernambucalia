@@ -4,60 +4,109 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pernambucália</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     
-    <link rel="stylesheet" href="../evento/css/header.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../evento/css/banner.css">
-    <link rel="stylesheet" href="/assets/mobile/mobile.css">
+    <link rel="stylesheet" href="../evento/css/evento.css">
+    <link rel="stylesheet" href="../evento/css/slider.css">
 </head>
 <body>
 
     <header>
         <nav class="nav-bar">
-            <div class="logo">
-                <img src="/assets/img/logo.png" alt="Logo">
+            <div class="logo-texto">
+                <div class="menu-icon">
+                    <button onclick="menuShow()"><img class="icon" src="../evento/img/menu.png" alt="menu"></button>
+                </div>
                 <p>Pernambucália</p>
             </div>
 
-            <div class="nav-list">
+            <div class="logo">
+                <a href="../evento/index.html"><img src="../evento/img/logo.png" alt="Logo"></a>
+            </div>
+
+            <div id="menu" class="side-menu">
                 <ul>
-                    <li class="nav-item"><a href="/assets/evento/index.html" class="nav-link">Evento</a></li>
-                    <li class="nav-item"><a href="/assets/cultura/cultura.html" class="nav-link">Cultura</a></li> 
+                    <li><a href="/assets/evento/index.html">O evento</a></li>
+                    <li><a href="/assets/atrações/atrações.html">Atrações</a></li>
+                    <li><a href="/assets/cultura/cultura.html">Culturas</a></li>
+                    <li><a href="#curadoria">Curadoria</a></li>
+                    <li><a href="#organizadores">Organizadores</a></li>
+                    <li><a href="#equipe">Equipe</a></li>
                 </ul>
+                <div class="llama">
+                    <img id="llama-img" src="../evento/img/llama.png" alt="Llama">
+                </div>
             </div>
-
-            <div class="mobile-menu-icon">
-                <button onclick="menuShow()"><img class="icon" src="/assets/img/menu.png" alt="menu"></button>
-            </div>
-        </nav>
-
-        <!-- Menu para dispositivos móveis -->
-        <div class="mobile-menu">
-            <ul>
-                <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
-                <div id="linha"></div>
-                <li class="nav-item"><a href="#" class="nav-link">Atrações</a></li>
-                <div id="linha"></div>
-                <li class="nav-item"><a href="#" class="nav-link">Organizadores</a></li>
-                <div id="linha"></div>
-                <li class="nav-item"><a href="#" class="nav-link">Linha do tempo</a></li>
-                <div id="linha"></div>
-                <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
-            </ul>
-        </div>
+        </nav>  
     </header>
     
     <section class="banner">
         <!--banner web-->
         <div class="banner-web">
-            <img src="/assets/img/banner1.png" alt="Bandeira de Pernambuco">
-        </div>
-
-        <!--banner mobile-->
-        <div class="banner-mobile">
-            <img src="/assets/img/banner1-mobile.png" alt="Bandeira versão mobile">
+            <img src="../evento/img/banner1.png" alt="Bandeira de Pernambuco">
         </div>
     </section>
 
-    <script src="js/script.js"></script>
+    <section class="evento">
+        <img id="evento-img" src="../evento/img/oevento.png" alt="evento">
+
+        <div class="mostra-cultural">
+            <div class="desc-geral-mostra">
+                <p id="oque-mostra-cultural">O que é a Mostra Cultural?</p>
+                <p id="desc-amostra">A Mostra Cultural tem como principal objetivo fazer uma<br>culminância
+                dos conhecimentos multidisciplinares adquiridos (ou<br>aprimorados) ao longo do ano
+                letivo.<br>
+                Além disso, estimular e “dar palco para a criatividade dos estudantes,<br>assim como, fazê-los perceber que o aprendizado é uma construção que<br>não precisa ser
+                limitada apenas às paredes da sala de aula.<br>
+                O projeto é uma continuidade de uma iniciativa feita, em menor<br>
+                quantidade de disciplinas e turmas envolvidas, no ano de 2022 pelas<br>disciplinas de
+                Sociologia e Linguagens.<br>
+                Vendo que o momento rendeu bons frutos e que é uma
+                excelente<br>ferramenta de ensino-aprendizagem, em 2023 se tornou um evento<br>que
+                conseguiu abarcar um maior quantitativo de disciplinas e<br>envolveu todas as turmas
+                do Mediotec.</p>
+            </div>
+
+            <img src="../evento/img/quadros-estudantes.png" alt="Foto dos estudantes na mostra cultural do ano passado">
+        </div>
+    
+        <!-- Fazer slider aqui -->
+
+        <div class="objetivos">
+            <div class="objetivos-desc-geral">
+                <p id="objetivos-titulo">Objetivos e Metas</p>
+                <div class="objetivos-topicos">
+                    <ul>
+                        <li>Maior envolvimento dos alunos com a instituição: os estudantes precisam se sentir pertences ao espaço o qual ocupam;</li>
+    
+                        <li>Vivenciar a multidisciplinaridade na prática: ao ter contato com um trabalho que envolve todas as disciplinas, eles conseguirão “visualizar” o quanto é importante o trabalho multidisciplinar constante;</li>
+    
+                        <li>Maior conhecimento da sua região: instigar os estudantes a conhecerem o local no qual vivem, assim como sua história e a interferência que o local tem na construção de suas identidades individuais;</li>
+
+                        <li>Estimular a ida aos museus e espaços históricos: muitos não possuem estímulos, pois não veem motivos para conhecer, a partir do trabalho, haverá essa necessidade e um possível encantamento com o que irão encontrar;</li>
+
+                        <li>Estimular o protagonismo, a criatividade e os talentos já existentes: ao propor um exposição que permite uma maior amplitude de realizações de trabalhos, há também um estímulo com relação aos estudantes entenderem que são os agentes na construção de seus conhecimentos, além de se sentirem estimulados a exporem seus talentos, pois, muitas vezes, não há espaço cabível no ambiente educacional para tal;</li>
+
+                        <li>Vislumbrar a Faculdade desde o ensino médio: que os estudantes se sintam estimulados a conhecerem a faculdade, assim como se visualizem nela.</li>
+                    </ul>
+                </div>
+            </div>
+            <img src="./img/Mapa-nordeste.png" alt="Mapa do Nordeste">
+        </div>
+
+        <div class="metodologia">
+            <p id="metodologia-titulo">Metodologia</p>
+            <p id="metodologia-desc">
+                Durante as aulas das disciplinas curriculares e as profissionalizantes, haverá a exposição para os estudantes da temática da Mostra, assim como a oferta com relação às possibilidades de produções, as quais, irão abranger as múltiplas expressões artísticas.<br><br>Além disso, haverá uma construção de conhecimento em sala de aula, dentro do currículo pré-estabelecido do planejamento anual de cada docente. O suporte com relação às produções será de responsabilidade de todos os professores, já que a culminância será considerada uma avaliação, no entanto, respeitando o modelo Senac, a construção, isto é, as etapas do processo, também serão avaliadas. Os estudantes terão liberdade de escolher o instrumento que mais se identificam, para que seja um processo confortável e prazeroso.<br><br>Ademais, ocorrerá as indicações para passeios de campo, com o intuito de ampliar a percepção do alunado acerca do local no qual vivem. Por fim, haverá uma relação de proximidade entre os estudantes e a Faculdade Senac, sobretudo com os cursos de Moda e Gastronomia, que serão os convidados e participantes diretos do processo de construção e ampliação de informações acerca do tema central da Mostra. O intuito é focar na moda e na gastronomia regionais.
+            </p>
+        </div>
+    </section>
+
+    <script src="/assets/js/menu.js"></script>
+    <script src="./js/slider.js"></script>
 </body>
 </html>

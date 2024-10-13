@@ -1,7 +1,7 @@
 .leao {
-    background-image: url('../img/fundo-xilogravura.png');
+    background-image: url('/assets/cultura/img/fundo-xilogravura.png');
     background-size: cover;
-
+    
     background-repeat: no-repeat;
 }
 
@@ -13,7 +13,7 @@
     align-items: center;
     justify-content: center;
 
-    margin: 75px 75px 75px 75px;
+    margin: 75px 0px 75px 0px;
 }
 
 

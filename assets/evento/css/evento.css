@@ -1,0 +1,122 @@
+.evento {
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Xilosa';
+
+    background-image: url('/assets/evento/img/fundo-familia.png');
+    background-size: cover;
+}
+
+#evento-img {
+    width: 350px;
+    height: auto;
+
+    margin-left: 80px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.mostra-cultural {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-between;
+
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.desc-geral-mostra {
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+}
+
+#oque-mostra-cultural {
+    font-size: 50px;
+    color: #CC7776;
+
+    margin: 0;
+}
+
+#desc-amostra {
+    font-family: 'Anzylna';
+    font-size: 35px;
+    color: #000;
+
+    margin: 0;
+}
+
+.mostra-cultural img {
+    width: 448px;
+    height: 448px;
+}
+
+.objetivos {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-between;
+
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.objetivos img {
+    width: 544px;
+    height: 668px;
+
+    margin: 20px;
+}
+
+#objetivos-titulo {
+    font-size: 50px;
+    color: #CC7776;
+
+    margin: 0;
+}
+
+.objetivos-topicos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    font-family: 'Anzylna';
+    font-size: 35px;
+}
+
+.objetivos-topicos ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.objetivos-topicos ul li {
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.metodologia {
+    margin-bottom: 70px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+#metodologia-titulo {
+    font-size: 50px;
+    color: #CC7776;
+
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+#metodologia-desc {
+    font-family: 'Anzylna';
+    font-size: 35px;
+}

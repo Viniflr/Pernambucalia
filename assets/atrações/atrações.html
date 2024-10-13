@@ -5,63 +5,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pernambucália</title>
 
-    <link rel="stylesheet" href="../atrações/css/header.css">
-    <link rel="stylesheet" href="../atrações/css/main.css">
-    <link rel="stylesheet" href="../atrações/css/banner.css">
-    <link rel="stylesheet" href="/assets/mobile/mobile.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="./css/banner.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
     
     <header>
         <nav class="nav-bar">
-            <div class="logo">
-                <img src="img/logo.png" alt="Logo">
+            <div class="logo-texto">
+                <div class="menu-icon">
+                    <button onclick="menuShow()"><img class="icon" src="./img/menu.png" alt="menu"></button>
+                </div>
                 <p>Pernambucália</p>
             </div>
 
-            <div class="nav-list">
+            <div class="logo">
+                <a href="../evento/index.html"><img src="./img/logo.png" alt="Logo"></a>
+            </div>
+
+            <div id="menu" class="side-menu">
                 <ul>
-                    <li class="nav-item"><a href="./index.html" class="nav-link">Evento</a></li>
-                    <li class="nav-item"><a href="./cultura.html" class="nav-link">Cultura</a></li> 
+                    <li><a href="/assets/evento/index.html">O evento</a></li>
+                    <li><a href="/assets/atrações/atrações.html">Atrações</a></li>
+                    <li><a href="/assets/cultura/cultura.html">Culturas</a></li>
+                    <li><a href="#curadoria">Curadoria</a></li>
+                    <li><a href="#organizadores">Organizadores</a></li>
+                    <li><a href="#equipe">Equipe</a></li>
                 </ul>
+                <div class="llama">
+                    <img id="llama-img" src="./img/llama.png" alt="Llama">
+                </div>
             </div>
-
-            <div class="mobile-menu-icon">
-                <button onclick="menuShow()"><img class="icon" src="./img/menu.png" alt="menu"></button>
-            </div>
-        </nav>
-
-        <!-- Menu para dispositivos móveis -->
-        <div class="mobile-menu">
-            <ul>
-                <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
-                <div id="linha"></div>
-                <li class="nav-item"><a href="#" class="nav-link">Atrações</a></li>
-                <div id="linha"></div>
-                <li class="nav-item"><a href="#" class="nav-link">Organizadores</a></li>
-                <div id="linha"></div>
-                <li class="nav-item"><a href="#" class="nav-link">Linha do tempo</a></li>
-                <div id="linha"></div>
-                <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
-            </ul>
-        </div>
+        </nav>  
     </header>
 
     <section class="banner">
         <!--banner web-->
         <div class="banner-web">
-            <img src="img/banner1.png" alt="Bandeira de Pernambuco">
-        </div>
-
-        <!--banner mobile-->
-        <div class="banner-mobile">
-            <img src="img/banner1-mobile.png" alt="Bandeira versão mobile">
+            <img src="./img/banner1.png" alt="Bandeira de Pernambuco">
         </div>
     </section>
 
+    <div class="main">
+
+        <img id="titulo"  src="./img/ATRAÇÕES.svg" alt="titulo">
+
+        
+
+        
+
+        <div class="conteudo">
+
+            
+            <div class="aside">
+                
+                <div class="alinhamento">
+
+                    <div class="botao">
+                        <button id="quinta" type="button" onclick="mostrar_dias()"> 17 <br> quinta </button>
+                        <button id="sexta" type="button" onclick="mostrar_dias()"> 18 <br> sexta </button>
+                    </div>
+    
+    
+                    <div class="barra">
+                        <form class="search-container">
+                            <input type="text" id="search-bar" placeholder="Busca">
+                            <a href="#"><img class="search-icon" src="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png"></a>
+                        </form>
+                    </div>
+
+                </div>
+
+                <div id="cronograma">
+                    
+                </div>
+
+                <div id="cronograma2">
+
+                    
+                </div>
     
 
+            </div>
+
+            
+            <img id="cangaceiro" src="./img/cangaceiro.png">
+    
+        </div>
+
+        
+    </div>
 
 
+
+    <script src="./js/dias.js"></script>
+    <script src="/assets/js/menu.js"></script>
 </body>
 </html>

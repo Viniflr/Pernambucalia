@@ -5,63 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pernambucália</title>
 
-    <link rel="stylesheet" href="../cultura/css/header.css">
-    <link rel="stylesheet" href="../cultura/css/banner.css">
-    <link rel="stylesheet" href="../cultura/css/bandeira.css">
-    <link rel="stylesheet" href="../cultura/css/leao.css">
-    <link rel="stylesheet" href="/assets/mobile/mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="./css/banner.css">
+    <link rel="stylesheet" href="./css/bandeira.css">
+    <link rel="stylesheet" href="./css/leao.css">
+    <link rel="stylesheet" href="./css/estados.css">
 </head>
 <body>
 
     <header>
         <nav class="nav-bar">
-            <div class="logo">
-                <img src="img/logo.png" alt="Logo">
+            <div class="logo-texto">
+                <div class="menu-icon">
+                    <button onclick="menuShow()"><img class="icon" src="./img/menu.png" alt="menu"></button>
+                </div>
                 <p>Pernambucália</p>
             </div>
 
-            <div class="nav-list">
+            <div class="logo">
+                <a href="../evento/index.html"><img src="./img/logo.png" alt="Logo"></a>
+            </div>
+
+            <div id="menu" class="side-menu">
                 <ul>
-                    <li class="nav-item"><a href="/assets/evento/index.html" class="nav-link">Evento</a></li>
-                    <li class="nav-item"><a href="/assets/cultura/cultura.html" class="nav-link">Cultura</a></li> 
+                    <li><a href="/assets/evento/index.html">O evento</a></li>
+                    <li><a href="/assets/atrações/atrações.html">Atrações</a></li>
+                    <li><a href="/assets/cultura/cultura.html">Culturas</a></li>
+                    <li><a href="#curadoria">Curadoria</a></li>
+                    <li><a href="#organizadores">Organizadores</a></li>
+                    <li><a href="#equipe">Equipe</a></li>
                 </ul>
+                <div class="llama">
+                    <img id="llama-img" src="./img/llama.png" alt="Llama">
+                </div>
             </div>
-
-            <div class="mobile-menu-icon">
-                <button onclick="menuShow()"><img class="icon" src="/assets/img/menu.png" alt="menu"></button>
-            </div>
-        </nav>
-
-        <!-- Menu para dispositivos móveis -->
-        <div class="mobile-menu">
-            <ul>
-                <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
-                <div id="linha"></div>
-                <li class="nav-item"><a href="#" class="nav-link">Atrações</a></li>
-                <div id="linha"></div>
-                <li class="nav-item"><a href="#" class="nav-link">Organizadores</a></li>
-                <div id="linha"></div>
-                <li class="nav-item"><a href="#" class="nav-link">Linha do tempo</a></li>
-                <div id="linha"></div>
-                <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
-            </ul>
-        </div>
+        </nav>  
     </header>
 
     <section class="banner">
         <!--banner web-->
         <div class="banner-web">
-            <img src="/assets/img/banner1.png" alt="Bandeira de Pernambuco">
-        </div>
-
-        <!--banner mobile-->
-        <div class="banner-mobile">
-            <img src="/assets/img/banner1-mobile.png" alt="Bandeira versão mobile">
+            <img src="./img/banner1.png" alt="Bandeira de Pernambuco">
         </div>
     </section>
 
     <!--Bandeira de pernambuco-->
     <section class="infos-bandeira-pe">
+        <img id="infos-bandeira-pe-img" src="./img/cultura.png" alt="Cultura">
+
         <div class="titulo-bandeira">
             <p>A BANDEIRA DE</p>
             <p id="parte-azul">PERNAMBUCO</p>
@@ -70,7 +64,7 @@
         <section class="bandeira-geral">
             <div class="bandeira">
                 <div class="img-bandeira">
-                    <img src="/assets/img/bandeiraPe.png" alt="Bandeira">
+                    <img src="./img/bandeiraPe.png" alt="Bandeira">
                 </div>
 
                 <div class="desc-bandeira">
@@ -81,7 +75,7 @@
 
             <div class="detalhe-bandeira">
                 <div class="symbol">
-                    <img src="/assets/img/estrela.png" alt="Estrela">
+                    <img src="./img/estrela.png" alt="Estrela">
                     <div class="description">
                         <h2>Estrela</h2>
                         <p>Pernambuco disposta no céu da bandeira brasileira</p>
@@ -89,7 +83,7 @@
                 </div>
             
                 <div class="symbol">
-                    <img src="/assets/img/arcoiris.png" alt="Arco-íris">
+                    <img src="./img/arcoiris.png" alt="Arco-íris">
                     <div class="description">
                         <h2>Arco-íris</h2>
                         <p>A união dos Pernambucanos</p>
@@ -97,7 +91,7 @@
                 </div>
             
                 <div class="symbol">
-                    <img src="/assets/img/sol.png" alt="Sol">
+                    <img src="./img/sol.png" alt="Sol">
                     <div class="description">
                         <h2>Sol</h2>
                         <p>A força e energia do estado</p>
@@ -105,7 +99,7 @@
                 </div>
             
                 <div class="symbol">
-                    <img src="/assets/img/cruz.png" alt="Cruz">
+                    <img src="./img/cruz.png" alt="Cruz">
                     <div class="description">
                         <h2>Cruz</h2>
                         <p>A fé cristã na justiça</p>
@@ -121,7 +115,7 @@
 
         <div class="conteudo">
 
-            <img src="/assets/img/leão.png" alt="Leão do norte" width="390" height="540">
+            <img src="./img/leão.png" alt="Leão do norte" width="390" height="540">
 
             <div class="infos">
 
@@ -159,44 +153,56 @@
                 <h3>As principais culturas do estado</h3>
             </div>
 
-            <div class="mapa-estados">
-                <img src="#" alt="mapa-estados">
+            <div id="row-mapa">
+
+                <div class="mapa-estados">
+                    <img src="./img/mapa-estado.png" alt="mapa-estados">
+                </div>
+
+                <div id="dropdown">
+                    
+                    <button class="seta">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+
+                    <button class= "botao-dropdown" onclick="mostrar_conteudo_dropdown(this.value)" value="RM">Região Metropolitana</button>
+                    <div id= "RM"></div>
+
+                    <button class="seta">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+
+                    <button class= "botao-dropdown" onclick="mostrar_conteudo_dropdown(this.value)" value="ZM">Região Zona da Mata</button>
+                    <div id= "ZM"></div>
+
+                    <button class="seta">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+
+                    <button class= "botao-dropdown" onclick="mostrar_conteudo_dropdown(this.value)" value="AG">Região Agreste</button>
+                    <div id= "AG"></div>
+
+                    <button class="seta">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+
+                    <button class= "botao-dropdown" onclick="mostrar_conteudo_dropdown(this.value)" value="SE">Sertão</button>
+                    <div id= "SE" ></div>
+
+                    <button class="seta">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+
+                    <button class= "botao-dropdown" onclick="mostrar_conteudo_dropdown(this.value)" value="SF">Vale do São Francisco</button>
+                    <div id= "SF"></div>
+                </div>
             </div>
-
-            <section>
-
-                <details>
-                    <summary>Região Metropolitana</summary>
-                    <p>O termo "Leão do Norte" é popularmente associado ao Hino de Pernambuco, que exalta o estado como um baluarte de coragem e liderança no Nordeste brasileiro. No hino, há uma menção ao "Leão do Norte", que representa a força e a bravura do povo pernambucano.</p>
-                </details>
-
-                <details>
-                    <summary>Região Zona da Mata</summary>
-                    <p>É uma das regiões mais férteis de Pernambuco e lá foram introduzidos os primeiros engenhos de açúcar no século XVI. Sua principal atividade econômica é a agroindústria canavieira, presente desde a época da colonização. Também tem importância na produção calçadista (de calçados), artesanal e na produção de açúcar e álcool.</p>
-                </details>
-
-                <details>
-                    <summary>Região Agreste</summary>
-                    <p>Localizado numa zona de transição entre a Zona da Mata e o Sertão, se divide em Agreste Meridional, Agreste Central e Agreste Setentrional.
-                    Caruaru, conhecida como “A Capital do Forró”, é um importante polo de produção de artesanato. A cidade é famosa pelas produções de cerâmica em barro vermelho e suas peças são feitas à mão e decoradas com desenhos geométricos e cenas do cotidiano. Além disso, no Agreste também há grande produção de produtos têxteis e agricultura principalmente de produtos mais tradicionais, como o milho, o algodão e a palma.</p>
-                </details>
-
-                <details>
-                    <summary>Região Sertão</summary>
-                    <p>falta terminar</p>
-                </details>
-
-                <details>
-                    <summary>Região São Francisco</summary>
-                    <p>Fica no centro-sul de Pernambuco, circundada pela margem esquerda do rio São Francisco. Na sua porção mais seca, a economia predomina com a pecuária bovina extensiva de corte. Na porção sul, mais perto do rio, são produzidas culturas irrigadas, o que incentiva a instalação de agroindústrias na região.</p>
-                </details>
-
-            </section>
 
         </div>
 
     </section>
 
+    <script src="/assets/js/menu.js"></script>
     <script src="./js/script.js"></script>
 </body>
 </html>

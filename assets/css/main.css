@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Xilosa;
+    src: url(/assets/fonts/xilosa_.ttf);
+}
+
+@font-face {
+    font-family: Anzylna;
+    src: url(/assets/fonts/Anzylna.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100vh;
+}
