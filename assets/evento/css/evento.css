@@ -47,7 +47,7 @@
     font-size: 35px;
     color: #000;
 
-    margin: 0;
+    margin-right: 300px;
 }
 
 .mostra-cultural img {
@@ -64,6 +64,10 @@
 
     margin-left: 140px;
     margin-right: 140px;
+}
+
+.div-objetivos-mapa {
+    display: none;
 }
 
 .objetivos img {
