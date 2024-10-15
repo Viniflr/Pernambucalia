@@ -1,8 +1,6 @@
 .banner {
-    z-index: 1;
     display: flex;
     position: relative;
-    background-color: white;
 }
 
 .banner-web img {
@@ -12,6 +10,6 @@
     margin-bottom: -10px;
 }
 
-.banner-mobile {
+.banner-mobile img {
     display: none;
 }

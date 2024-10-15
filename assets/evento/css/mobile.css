@@ -6,7 +6,7 @@
     .banner-mobile img {
         display: flex;
 
-        width: 100%;
+        width: 101%;
         height: auto;
     }
 
@@ -38,6 +38,8 @@
     #oque-mostra-cultural {
         font-size: 28px;
         color: #CC7776;
+
+        width: 110%;
     
         margin: 0;
     }

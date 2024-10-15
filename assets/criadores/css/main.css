@@ -1,4 +1,35 @@
 .main{
-    background-image: url('/assets/cultura/img/fundo-xilogravura.png');
+    background-image: url('/assets/criadores/img/fundo-equipe.svg');
+    background-size: contain;
+    
+    display: flex;
+    flex-direction: column;
 }
 
+.imagens1{
+    display: flex;
+    justify-content: center;
+}
+
+.imagens2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+
+.textos{
+    display: flex;
+    padding: 30px 150px 70px 75px;
+}
+
+.imagens-mob1{
+    display: none;
+}
+
+.textos-mob{
+    display: none;
+}
+
+.imagens-mob2{
+    display: none;
+}

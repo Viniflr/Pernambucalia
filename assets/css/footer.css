@@ -42,7 +42,7 @@ footer {
     height: 74px;
 }
 
-.divider p {
+.divider-texto p {
     font-family: Poppins;
     font-weight: 400;
     font-size: 15px;
@@ -175,7 +175,7 @@ footer {
         height: 64px;
     }
     
-    .divider p {
+    .divider-texto p {
         display: none;
     }
     

@@ -1,0 +1,59 @@
+@media screen and (max-width: 320px) { } @media screen and (max-width: 480px) { } @media screen and (max-width: 600px) { } @media screen and (max-width: 768px) { } @media screen and (max-width: 992px) { 
+    .banner-web img {
+        display: none;
+    }
+
+    .banner-mobile img {
+        display: flex;
+
+        width: 100%;
+        height: auto;
+    }
+
+    .main{
+        background-image: url('/assets/cultura/img/fundo-xilogravura.png');
+        background-size: contain;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagens1{
+        display: none;
+    }
+
+    .imagens2{
+        display: none;
+    }
+    
+    .textos{
+        display: none;
+    }
+
+
+
+    .textos-mob{
+        display: flex;
+        padding: 35px 15px 35px 15px;
+    }
+
+    .imagens-mob1{
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .imagens-mob2 {
+        display: flex;
+        padding-bottom: 70px;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+
+
+}
