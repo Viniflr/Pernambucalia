@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="../evento/css/slider.css">
     <link rel="stylesheet" href="../evento/css/mobile.css">
 </head>
-<body>
+<body onload="initSlide()">
 
     <header>
         <nav class="nav-bar">
@@ -53,7 +53,7 @@
 
         <!--banner mobile-->
         <div class="banner-mobile">
-            <img src="../evento/img/bandeiraPe-mobile.svg" alt="Bandeira de Pernambuco para mobile">
+            <img src="./img/bandeiraPe-mobile.svg" alt="Bandeira de Pernambuco para mobile">
         </div>
     </section>
 
@@ -69,7 +69,22 @@
             <img src="../evento/img/quadros-estudantes.png" alt="Foto dos estudantes na mostra cultural do ano passado">
         </div>
     
-        <!-- Fazer slider aqui -->
+         <!-- Fazer slider aqui -->
+        <div class="carrossel-geral">
+            <div id = "carrossel">
+                <button id="carrossel-button-previous" class="carrossel-button" onclick="previousSlide()"></button>
+                <img id="carrossel-imagem-previous" class = "next-previous-button">
+                <img  id="carrossel-imagem-principal">
+                <img id="carrossel-imagem-next" class = "next-previous-button">
+                <button id="carrossel-button-next" class="carrossel-button" onclick="nextSlide()"></button>
+                
+            </div>
+            <div class="div-image-description-localizer" >
+                <div id="div-image-description-localizer-content" class="div-image-description-localizer-content">
+                    <!--DEIXAR  AQUI VAZIO! programinha do javascript ja insere automaticamente!-->
+                </div> 
+            </div>
+        </div>
 
         <div class="objetivos">
             <div class="objetivos-desc-geral">

@@ -55,6 +55,40 @@
         display: none;
     }
 
+    .carrossel-geral {
+        background-color: white;
+        
+        width: 100%;
+        height: auto;
+
+        box-shadow: inset 0px 0px 10px black;
+    }
+
+    #carrossel
+    {
+    margin-top: 0px;
+    margin-bottom: -30px;
+    }
+
+    #carrossel-imagem-principal
+    {
+    width: 248px;
+    height: 258px;
+    }
+
+    .next-previous-button
+    {
+    display: none;
+    }
+
+    #carrossel-button-previous {
+        background-size: 15px;
+    }
+
+    #carrossel-button-next {
+        background-size: 15px;
+    }
+
     .objetivos {
         display: flex;
         flex-direction: column;
@@ -64,6 +98,10 @@
     
         margin-left: 30px;
         margin-right: 30px;
+    }
+
+    .div-objetivos-mapa {
+        display: block;
     }
 
     .div-objetivos-mapa img {
