@@ -2,6 +2,8 @@ footer {
     display: flex;
     flex-direction: column;
 
+    width: 100%;
+
     background-color: #435B8E;
     padding: 80px 80px 40px 80px;
 }
@@ -124,4 +126,134 @@ footer {
 
 .topicos-social a :hover {
     width: 2.8rem;
+}
+
+@media screen and (max-width: 320px) { } @media screen and (max-width: 480px) { } @media screen and (max-width: 600px) { } @media screen and (max-width: 768px) { } @media screen and (max-width: 992px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+    
+        width: 100%;
+    
+        background-color: #435B8E;
+        padding: 10px 10px 10px 10px;
+    }
+    
+    #copyright {
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 12px;
+        color: white;
+    
+        margin-top: 40px;
+    
+        align-self: center;
+    }
+    
+    .footer-geral {
+        display: flex;
+        flex-direction: column;
+    
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .logos-footer {
+        display: flex;
+        flex-direction: row;
+
+        gap: 10px;
+    }
+    
+    .logos-footer-img {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #logos-fiveup-img {
+        width: 168px;
+        height: 64px;
+    }
+    
+    .divider p {
+        display: none;
+    }
+    
+    #llama-footer-img {
+        width: 160px;
+        height: auto;
+    
+        align-self: flex-end;
+        margin-bottom: 11px;
+    }
+    
+    .topicos {
+        display: flex;
+        flex-direction: row;
+    
+        margin-top: 25px;
+        gap: 30px;
+    }
+    
+    .topicos-ul {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .topicos-ul p {
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: 500;
+        color: white;
+    }
+    
+    .topicos-ul a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .topicos-ul ul {
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+        color: white;
+    
+        margin-top: 0px;
+    
+        list-style: none;
+    }
+    
+    .topicos-ul ul li {
+        line-height: 30px;
+    }
+    
+    .topicos-ul a :hover {
+        text-decoration: none;
+    }
+    
+    .topicos-social {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .topicos-social p {
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: 500;
+        color: white;
+    }
+    
+    .topicos-social svg {
+        width: 1.8rem;
+        height: auto;
+    
+        justify-content: center;
+        align-items: center;
+    
+        transition: ease 0.2s;
+    }
+    
+    .topicos-social a :hover {
+        width: 1.8rem;
+    }
 }
