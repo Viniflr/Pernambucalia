@@ -1,116 +1,103 @@
-
 .main{
-    display: flex;
-    background-image: url(../img/fundo-xilogravura.png);
-    background-size: auto;
-    flex-direction: column;
-    align-content: center;
+  display: flex;
+  background-image: url(../img/fundo-xilogravura.png);
+  background-size: auto;
+  flex-direction: column;
+  align-content: center;
 }
 
 .conteudo{
-    display: flex;
-    flex-direction: row;
-    
+  display: flex;
+  flex-direction: row;
+  
 }
 
 .aside{
-  display: flex;
-  flex-direction: column;
+display: flex;
+flex-direction: column;
 }
 
-#cronograma2{
-  display: none;
-  padding-top: 15px;
-  padding-left: 49px;
+#cronograma_sexta{
+display: none;
+padding-top: 15px;
+padding-left: 49px;
 }
 
-#cronograma{
-  padding-top: 15px;
-  padding-left: 49px;
+#cronograma_quinta{
+padding-top: 15px;
+padding-left: 49px;
 }
 
 .alinhamento{
-  display: flex;
-  flex-direction: column;
-  padding-left: 55px;
+display: flex;
+flex-direction: column;
+padding-left: 55px;
 }
 
 .alinhamento2{
-  display: flex;
-  flex-direction: row;
+display: flex;
+flex-direction: row;
 }
 
 #one{
-    list-style: none;
-    
+  list-style: none;
+  
 }
 
 #two{
-    list-style: none;
+  list-style: none;
 }
 
 #titulo{
-  width: 350px;
-  height: auto;
+width: 350px;
+height: auto;
 
-  margin-left: 80px;
-  margin-bottom: 50px;
-  margin-top: 50px;
+margin-left: 80px;
+margin-bottom: 50px;
+margin-top: 50px;
 }
 
 #cangaceiro{
-    height: 570px;
+  height: 570px;
 }
 
 #quinta{
-  background-color: #D8B057;
+background-color: #D8B057;
 }
 
 #sexta{
-  background-color: #CC7776;
+background-color: #CC7776;
 }
 
 .botao {
-  display: flex;
-  flex-direction: row;
+display: flex;
+flex-direction: row;
 
-  gap: 10px;
+gap: 10px;
 }
 
 .botao button {
-  font-family: Xilosa;
-  font-size: 35px;
-  color: #ffff;
+font-family: Xilosa;
+font-size: 35px;
+color: #ffff;
 
-  border-radius: 15px;
-  border: none;
-  padding: 15px 15px 15px 15px;
+border-radius: 15px;
+border: none;
+padding: 15px 15px 15px 15px;
 
-  transition: ease 0.2s;
+transition: ease 0.2s;
 }
 
 .botao :hover {
-  box-shadow: inset 1px 0px 22px black;
-  opacity: 92%;
+box-shadow: inset 1px 0px 22px black;
+opacity: 92%;
 }
 
 .eventos{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    border:  2px solid #D8B057;
-    width: 691px;
-    height: 106.99px;
-    gap: 5px;
-    border-radius: 25px;
-    margin:5px ;
-}
-
-.eventos2{
   display: flex;
   flex-direction: row;
   align-items: center;
-  border:  2px solid #CC7776;
+  border:  2px solid #D8B057;
   width: 691px;
   height: 106.99px;
   gap: 5px;
@@ -118,61 +105,70 @@
   margin:5px ;
 }
 
+.eventos2{
+display: flex;
+flex-direction: row;
+align-items: center;
+border:  2px solid #CC7776;
+width: 691px;
+height: 106.99px;
+gap: 5px;
+border-radius: 25px;
+margin:5px ;
+}
+
 .infos{
-    font-family: Xilosa;
-    font-size: 40px;
-    height: 90px ;
+  font-family: Xilosa;
+  font-size: 40px;
+  height: 90px ;
 }
 
 .infos p {
-  margin: 0;
+margin: 0;
 }
 
 .text-menor{
-  font-size: 25px;
-  margin: 0;
-  font-family: Anzylna;
+font-size: 25px;
+margin: 0;
+font-family: Anzylna;
 }
 
 .text-maior{
-  font-size: 50px;
-  margin: 0;
-  font-family: Anzylna;
+font-size: 50px;
+margin: 0;
+font-family: Anzylna;
 }
 
 .horario{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #D8B057;
-  width: 106.99px;
-  height: 85.59px;
-  border-radius: 22px;
-  margin: 5px 5px 5px 5px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: #D8B057;
+width: 106.99px;
+height: 85.59px;
+border-radius: 22px;
+margin: 5px 5px 5px 5px;
 }
 
 .horario p {
-  margin: 0;
-  color: #ffff;
+margin: 0;
+color: #ffff;
 }
 
 .horario2{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #CC7776;
-  width: 106.99px;
-  height: 85.59px;
-  border-radius: 22px;
-  margin: 5px 5px 5px 5px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: #CC7776;
+width: 106.99px;
+height: 85.59px;
+border-radius: 22px;
+margin: 5px 5px 5px 5px;
 }
 
 .horario2 p {
-  margin: 0;
-  color: #ffff;
+margin: 0;
+color: #ffff;
 }
-
-  
-  

@@ -1,37 +1,16 @@
-var btn_quinta = document.querySelector('#quinta');
-var btn_sexta = document.querySelector('#sexta');
+var cronograma_quinta = document.querySelector('#cronograma_quinta');
+var cronograma_sexta = document.querySelector('#cronograma_sexta');
 
-var cronograma = document.querySelector('#cronograma');
-var cronograma2 = document.querySelector('#cronograma2');
+function mudar_quinta()
+{
+    //Aparecendo quinta e sumindo sexta
+    cronograma_quinta.style.display = 'block';
+    cronograma_sexta.style.display = 'none';
+}
 
-
-btn_quinta.addEventListener('click', function(){
-
-
-    if(cronograma2.style.display === 'block'){
-        cronograma2.style.display = 'none';
-    }
-
-    if(cronograma.style.display === 'block'){
-        cronograma.style.display = 'none';
-    } else{
-        cronograma.style.display = 'block';
-    }
-
-
-});
-
-
-btn_sexta.addEventListener('click', function(){
-
-    if(cronograma.style.display === 'block'){
-        cronograma.style.display = 'none';
-    } 
-
-    if(cronograma2.style.display === 'none'){
-        cronograma2.style.display = 'block';
-    } else{
-        cronograma2.style.display = 'none';
-    }
-
-});
+function mudar_sexta()
+{
+    //Aparecendo sexta e sumindo quinta
+    cronograma_quinta.style.display = 'none';
+    cronograma_sexta.style.display = 'block';
+}

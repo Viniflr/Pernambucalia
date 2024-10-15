@@ -1,10 +1,19 @@
-.leao {
-    background-image: url('/assets/cultura/img/fundo-xilogravura.png');
+@font-face {
+    font-family: Xilosa;
+    src: url('/assets/fonts/xilosa_.ttf')
+}
+
+@font-face {
+    font-family: Anzylna;
+    src: url('/assets/fonts/Anzylna.ttf');
+}
+
+.leao-web {
+    background-image: url('/assets/img/fundo-xilogravura.png');
     background-size: cover;
     
     background-repeat: no-repeat;
 }
-
 
 .conteudo{
     display: flex;
@@ -13,13 +22,13 @@
     align-items: center;
     justify-content: center;
 
-    margin: 75px 0px 75px 0px;
+    margin: 75px 0px 50px 0px;
 }
-
 
 .titulo-leao{
     font-family: xilosa;
     font-size: 45px;
+    padding-bottom: 0px;
     color: #C35251;
     opacity: 75%;
 }
@@ -55,4 +64,8 @@
 
     width: 30px;
     height: auto;
+}
+
+.leao-mobile {
+    display: none;
 }
