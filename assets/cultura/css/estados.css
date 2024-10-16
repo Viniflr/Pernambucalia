@@ -1,6 +1,6 @@
 .estado{
     background-size: auto;
-    background-image: url('/assets/cultura/img/fundoPapel.png');
+    background-image: url('../img/fundoPapel.png');
 
     box-shadow: 4px 0px 8px rgba(0, 0, 0, 0.2);
 
@@ -98,7 +98,7 @@ section details summary {
     width: 500px;
 }
 
-#mais-detalhes-rm, #mais-detalhes-zm, #mais-detalhes-ag {
+#mais-detalhes-rm, #mais-detalhes-zm, #mais-detalhes-ag, #mais-detalhes-se, #mais-detalhes-sf {
     font-family: Xilosa;
     color: black;
     font-weight: bold;
@@ -106,6 +106,6 @@ section details summary {
     text-decoration: none;
 }
 
-#mais-detalhes-rm:hover, #mais-detalhes-zm:hover, #mais-detalhes-ag:hover {
+#mais-detalhes-rm:hover, #mais-detalhes-zm:hover, #mais-detalhes-ag:hover, #mais-detalhes-se:hover, #mais-detalhes-sf:hover {
     text-decoration: underline rgba(0, 0, 0, 0.8);
 }

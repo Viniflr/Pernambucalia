@@ -9,7 +9,9 @@
 .conteudo{
   display: flex;
   flex-direction: row;
-  
+
+  align-items: center;
+  justify-content: space-between;
 }
 
 .aside{
@@ -21,11 +23,13 @@ flex-direction: column;
 display: none;
 padding-top: 15px;
 padding-left: 49px;
+padding-bottom: 50px;
 }
 
 #cronograma_quinta{
 padding-top: 15px;
 padding-left: 49px;
+padding-bottom: 50px;
 }
 
 .alinhamento{
@@ -58,7 +62,10 @@ margin-top: 50px;
 }
 
 #cangaceiro{
-  height: 570px;
+  width: auto;
+  height: 600px;
+
+  margin-right: 200px;
 }
 
 #quinta{
@@ -70,22 +77,24 @@ background-color: #CC7776;
 }
 
 .botao {
-display: flex;
-flex-direction: row;
+  display: flex;
+  flex-direction: row;
 
-gap: 10px;
+  margin-left: 65px;
+
+  gap: 10px;
 }
 
 .botao button {
-font-family: Xilosa;
-font-size: 35px;
-color: #ffff;
+  font-family: Xilosa;
+  font-size: 35px;
+  color: #ffff;
 
-border-radius: 15px;
-border: none;
-padding: 15px 15px 15px 15px;
+  border-radius: 15px;
+  border: none;
+  padding: 15px 25px 15px 25px;
 
-transition: ease 0.2s;
+  transition: ease 0.2s;
 }
 
 .botao :hover {
@@ -93,67 +102,77 @@ box-shadow: inset 1px 0px 22px black;
 opacity: 92%;
 }
 
+.eventos-geral {
+    border:  2px solid #D8B057;
+
+    width: auto;
+    height: auto;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.eventos-geral-2 {
+  border:  2px solid #CC7776;
+
+  width: auto;
+  height: auto;
+  border-radius: 25px;
+  margin: 10px;
+}
+
 .eventos{
   display: flex;
   flex-direction: row;
   align-items: center;
-  border:  2px solid #D8B057;
-  width: 691px;
-  height: 106.99px;
-  gap: 5px;
-  border-radius: 25px;
-  margin:5px ;
 }
 
 .eventos2{
-display: flex;
-flex-direction: row;
-align-items: center;
-border:  2px solid #CC7776;
-width: 691px;
-height: 106.99px;
-gap: 5px;
-border-radius: 25px;
-margin:5px ;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-.infos{
+.infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   font-family: Xilosa;
-  font-size: 40px;
-  height: 90px ;
+  font-size: 20px;
 }
 
 .infos p {
-margin: 0;
+  margin: 0;
 }
 
 .text-menor{
 font-size: 25px;
 margin: 0;
-font-family: Anzylna;
+font-family: Xilosa;
 }
 
 .text-maior{
-font-size: 50px;
+font-size: 35px;
 margin: 0;
-font-family: Anzylna;
+font-family: Xilosa;
 }
 
 .horario{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-background-color: #D8B057;
-width: 106.99px;
-height: 85.59px;
-border-radius: 22px;
-margin: 5px 5px 5px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #D8B057;
+  width: 106.99px;
+  height: 85.59px;
+  border-radius: 22px;
+  margin: 5px 5px 5px 5px;
 }
 
 .horario p {
-margin: 0;
-color: #ffff;
+  font-family: Anzylna;
+  font-size: 40px;
+  margin: 0;
+  color: #ffff;
 }
 
 .horario2{
@@ -169,6 +188,8 @@ margin: 5px 5px 5px 5px;
 }
 
 .horario2 p {
-margin: 0;
-color: #ffff;
+  font-family: Anzylna;
+  font-size: 40px;
+  margin: 0;
+  color: #ffff;
 }

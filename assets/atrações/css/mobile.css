@@ -1,4 +1,9 @@
 @media screen and (max-width: 320px) { } @media screen and (max-width: 480px) { } @media screen and (max-width: 600px) { } @media screen and (max-width: 768px) { } @media screen and (max-width: 992px) {    
+    .banner {
+        display: flex;
+        position: relative;
+    }
+    
     .banner-web img {
         display: none;
     }
@@ -26,23 +31,22 @@
     .aside{
     display: flex;
     flex-direction: column;
+
+    margin-bottom: 30px;
     }
 
-    #cronograma2{
-    display: none;
-    padding-top: 15px;
-    padding-left: 49px;
+    #cronograma_sexta{
+        padding: 0;
     }
 
-    #cronograma{
-    padding-top: 15px;
-    padding-left: 49px;
+    #cronograma_quinta{
+        padding: 0;
     }
 
     .alinhamento{
     display: flex;
     flex-direction: column;
-    padding-left: 55px;
+    padding-left: 20px;
     }
 
     .alinhamento2{
@@ -63,9 +67,9 @@
     width: 164px;
     height: auto;
 
-    margin-left: 80px;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
     }
 
     #cangaceiro{
@@ -82,107 +86,111 @@
     }
 
     .botao {
-    display: flex;
-    flex-direction: row;
+        display: flex;
+        flex-direction: row;
 
-    gap: 10px;
+        align-items: center;
+        justify-content: center;
+
+        margin-bottom: 20px;
+        margin: 0;
     }
 
     .botao button {
-    font-family: Xilosa;
-    font-size: 17.5px;
-    color: #ffff;
+        font-family: Xilosa;
+        font-size: 30px;
+        color: #ffff;
 
-    border-radius: 15px;
-    border: none;
-    padding: 15px 15px 15px 15px;
+        border-radius: 15px;
+        border: none;
+        padding: 15px 25px 15px 25px;
 
-    transition: ease 0.2s;
+        transition: ease 0.2s;
     }
 
     .botao :hover {
-    box-shadow: inset 1px 0px 22px black;
-    opacity: 92%;
+        box-shadow: inset 1px 0px 22px black;
+        opacity: 92%;
     }
 
-    .eventos{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+    .eventos-geral {
         border:  2px solid #D8B057;
-        width: 341px;
-        height: 66px;
-        gap: 5px;
-        border-radius: 13px;
-        margin:5px ;
+    
+        width: auto;
+        height: auto;
+        border-radius: 15px;
+        margin: 10px;
     }
-
-    .eventos2{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+    
+    .eventos-geral-2 {
         border:  2px solid #CC7776;
-        width: 341px;
-        height: 66px;
-        gap: 5px;
-        border-radius: 13px;
-        margin:5px ;
+    
+        width: auto;
+        height: auto;
+        border-radius: 15px;
+        margin: 10px;
     }
 
-    .infos{
+    .infos {
+        display: flex;
+    }
+        
+    .text-maior{
+        font-size: 20px;
+        margin: 0;
         font-family: Xilosa;
-        font-size: 40px;
-        height: 45px ;
-    }
-
-    .infos p {
-    margin: 0;
     }
 
     .text-menor{
-    font-size: 15px;
-    margin: 0;
-    font-family: Anzylna;
+        font-size: 17px;
+        margin: 0;
+        font-family: Xilosa;
     }
 
-    .text-maior{
-    font-size: 22px;
-    margin: 0;
-    font-family: Anzylna;
+    .text-horario{
+        font-size: 20px;
+        margin: 0;
+        font-family: Anzylna;
     }
 
     .horario{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #D8B057;
-    width: 43.94px;
-    height: 46.63px;
-    border-radius: 13px;
-    margin: 5px 5px 5px 5px;
-    }
+        display: flex;
+        flex-direction: column;
 
+        justify-content: center;
+        align-items: center;
+
+        background-color: #D8B057;
+        
+        width: 70px;
+        height: 70px;
+        border-radius: 15px;
+        margin: 5px 5px 5px 5px;
+    }
+      
     .horario p {
-    margin: 0;
-    color: #ffff;
+        font-family: Anzylna;
+        font-size: 30px;
+        color: #ffff;
     }
-
+      
     .horario2{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         background-color: #CC7776;
-        width: 43.94px;
-        height: 46.63px;
-        border-radius: 13px;
+        width: 70px;
+        height: 70px;
+        border-radius: 15px;
         margin: 5px 5px 5px 5px;
     }
-
+      
     .horario2 p {
-    margin: 0;
-    color: #ffff;
+        font-family: Anzylna;
+        font-size: 30px;
+        margin: 0;
+        color: #ffff;
     }
 
     #cronograma{

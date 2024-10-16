@@ -1,7 +1,16 @@
 @media screen and (max-width: 320px) { } @media screen and (max-width: 480px) { } @media screen and (max-width: 600px) { } @media screen and (max-width: 768px) { } @media screen and (max-width: 992px) { 
    
    /* BANNER */
+    .banner-web img {
+        display: none;
+    }
 
+    .banner-mobile img {
+        display: flex;
+        
+        width: 100%;
+        height: auto;
+    }
     
 
     /* BANDEIRA */
@@ -31,7 +40,7 @@
         flex-direction: row;
         justify-content: center;
         margin: 0;
-        margin-bottom: 0;
+        margin-bottom: 10px;
     
         font-family: Xilosa;
         font-size: 22px;
@@ -57,8 +66,8 @@
         display: flex;
         flex-direction: column;
     
-        gap: 10px;
-        margin-top: 50px;
+        gap: 45px;
+        margin-top: 65px;
         margin-left: 5px;
     }
     
@@ -105,30 +114,47 @@
     
     .description h2 {
         font-family: Xilosa;
-        font-size: 20px;
+        font-size: 18px;
         margin: 0;
         color: #000;
     }
     
     .description p {
         font-family: Anzylna;
-        font-size: 27px;
+        font-size: 22px;
         margin: 0px 0 0;
         color: #555;
     }
+
+
+
+
+
 
     /* LEAO DO NORTE */
     .leao-web {
         display: none;
     }
 
-    .leao-mobile{
-        display: contents;
-        background-image: url('/assets/img/backgroundXiloMobile.png');
-        width: 360px;
+    .leao-mobile-geral {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        background-image: url('');
+        max-width: 100%;
         height: auto;
-        margin: 0;
-        padding: 0;
+
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .leao-mobile{
+        display: flex;
+        flex-direction: column;
+
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
     
     .titulo-leao{
@@ -137,8 +163,8 @@
         font-size: 22px;
         color: #CD7270;
 
-        margin: 0;
-        padding: 0;
+        padding-left: 10px;
+        padding-bottom: 20px;
     }
 
     .leao-mobile img {
@@ -152,25 +178,37 @@
 
     .conteudo-leao-mobile p {
         font-family: Anzylna;
-        font-size: 18px;
+        font-size: 20px;
+        color: rgba(0, 0, 0, 0.8);
+        text-align: justify;
     }
 
 
 
 
 
+    
     /* ESTADOS */
     .estado-geral {
-        justify-content: center;
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        justify-items: center;
+
+        background-image: url('/assets/img/fundoPapel.png');   
+        box-shadow: 4px 0px 8px rgba(0, 0, 0, 0.2);
+
+        width: 100%;
+        height: auto;
     }
 
     .estado{
-        background-size: auto;
-        background-image: url('/assets/img/fundoPapel.png');   
-        box-shadow: 4px 0px 8px rgba(0, 0, 0, 0.2);
-    
-        margin: 0;
-        padding: 0;
+        align-items: center;
+        justify-content: center;
+
+        width: 100%;
+        height: auto;
     }
     
     .titulo-estado h3{
@@ -178,24 +216,31 @@
         font-size: 25px;
         color: #CD7270;
     
+        text-align: center;
+
         padding: 0;
-        margin: 0;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
     
     #row-mapa{
         /* align-items: center; */
         display: flex;
         flex-direction: column;
-
-        justify-content: center;
     
         margin: 0;
+        gap: 30px;
     
         /* margin-left: 12%; */
     }
+
+    .mapa-estados {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     
     .mapa-estados img {
-        justify-content: center;
         width: 348px;
         height: auto;
 
@@ -204,28 +249,36 @@
     }
     
     #dropdown {
-        justify-content: center;
-        position: left;
-
         margin: 0;
+        width: 100%;
+        height: auto;
+
+        padding-left: 25px;
+        margin-bottom: 50px;
     }
     
     #dropdown summary{
         font-family: Xilosa;
-        font-size: 18px;
+        font-size: 15px;
         opacity: 85%;
+
+        justify-content: center;
+        align-self: center;
     }
     
     #dropdown p {
         padding-top: 17px;
         padding-bottom: 20px;
         font-family: Anzylna;
-        font-size: 20px;
+        font-size: 22px;
 
         max-width: 348px;
     
         color: black;
         opacity: 70%;
+
+        justify-content: center;
+        align-self: center;
     }
     
     section details summary {
@@ -242,9 +295,6 @@
     
         border: none;
         padding-left: 17px;
-        
-        color: black;
-        opacity: 75%;
     }
     
     .seta{
@@ -263,15 +313,15 @@
         width: 348px;
     }
     
-    #mais-detalhes-rm, #mais-detalhes-zm, #mais-detalhes-ag {
+    #mais-detalhes-rm, #mais-detalhes-zm, #mais-detalhes-ag, #mais-detalhes-se, #mais-detalhes-sf {
         font-family: Xilosa;
         color: black;
         font-weight: bold;
-        font-size: 22px;
+        font-size: 17px;
         text-decoration: none;
     }
     
-    #mais-detalhes-rm:hover, #mais-detalhes-zm:hover, #mais-detalhes-ag:hover {
+    #mais-detalhes-rm:hover, #mais-detalhes-zm:hover, #mais-detalhes-ag:hover, #mais-detalhes-se:hover, #mais-detalhes-sf:hover {
         text-decoration: underline rgba(0, 0, 0, 0.8);
     }
 }
