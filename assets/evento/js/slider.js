@@ -1,6 +1,6 @@
 //Variaveis globais
 let slideIndex = 0; //<-Indice de passagem do slide
-const IMAGENS = ["./img/foto-1.png", "./img/foto-2.png", "./img/foto-3.png", "./img/foto-4.png"]; //<-Array com TODAS as imagens
+const IMAGENS = ["/assets/evento/img/foto-1.png", "/assets/evento/img/foto-2.png", "/assets/evento/img/foto-3.png", "/assets/evento/img/foto-4.png"]; //<-Array com TODAS as imagens
 const GLOBAL_IDENTFIER = "div-image-description-localizer-content-"; //<<----Variavel importante para identificação das DIVS
 const COLORS = ["#999999","#b8b8b8"]; //<--Dicionario de cores! 0 = ON, 1 = OFF
 
