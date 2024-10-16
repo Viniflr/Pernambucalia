@@ -1,13 +1,16 @@
 @media screen and (max-width: 320px) { } @media screen and (max-width: 480px) { } @media screen and (max-width: 600px) { } @media screen and (max-width: 768px) { } @media screen and (max-width: 992px) { 
-    .banner-web img {
+    .banner img {
         display: none;
     }
 
     .banner-mobile img {
         display: flex;
+        position: relative;
 
         width: 100%;
         height: auto;
+
+        margin-bottom: -10px;
     }
 
     .main{

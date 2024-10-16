@@ -1,9 +1,7 @@
-.banner {
+.banner img {
     display: flex;
     position: relative;
-}
 
-.banner-web img {
     width: 100%;
     height: auto;
 

@@ -1,11 +1,7 @@
-.banner {
-    z-index: 1;
+.banner img {
     display: flex;
     position: relative;
-    background-color: white;
-}
 
-.banner-web img {
     width: 100%;
     height: auto;
 
