@@ -1,5 +1,5 @@
 .main{
-    background-image: url('/assets/criadores/img/fundo-equipe.svg');
+    background-image: url('../img/fundo-equipe.svg');
     background-size: contain;
     
     display: flex;

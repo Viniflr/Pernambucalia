@@ -11,7 +11,7 @@
     }
 
     .main{
-        background-image: url('/assets/cultura/img/fundo-xilogravura.png');
+        background-image: url('../img/fundo-xilogravura.png');
         background-size: contain;
         display: flex;
         flex-direction: column;

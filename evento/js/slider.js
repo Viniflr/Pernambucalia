@@ -1,6 +1,6 @@
 //Variaveis globais
 let slideIndex = 0; //<-Indice de passagem do slide
-const IMAGENS = ["/assets/evento/img/foto-1.png", "/assets/evento/img/foto-2.png", "/assets/evento/img/foto-3.png", "/assets/evento/img/foto-4.png"]; //<-Array com TODAS as imagens
+const IMAGENS = ["./evento/img/foto-1.png", "./evento/img/foto-2.png", "./evento/img/foto-3.png", "./evento/img/foto-4.png"]; //<-Array com TODAS as imagens
 const GLOBAL_IDENTFIER = "div-image-description-localizer-content-"; //<<----Variavel importante para identificação das DIVS
 const COLORS = ["#999999","#b8b8b8"]; //<--Dicionario de cores! 0 = ON, 1 = OFF
 
@@ -14,7 +14,11 @@ function initSlide()
     //Imagem anterior
     document.getElementById("carrossel-imagem-previous").src = IMAGENS[IMAGENS.length-1];
     //Proxima imagem
-    document.getElementById("carrossel-imagem-next").src = IMAGENS[slideIndex+1];
+    if (slideIndex == IMAGENS.length) {
+        document.getElementById('carrossel-imagem-next').src = IMAGENS[0]}
+        else {
+        document.getElementById('carrossel-imagem-next').src = IMAGENS[slideIndex+1]
+    }
 
     //Criando tamanho dos botões dinamicamente
     for(let i = 0; i < IMAGENS.length; i++)

@@ -6,8 +6,8 @@ function menuShow() {
 
     // Verifica se o menu está visível e muda a imagem do ícone
     if (menu.classList.contains('show')) {
-        menuIcon.src = '/assets/evento/img/menu-fechar.png'; // Caminho para o ícone de fechar
+        menuIcon.src = './img/menu-fechar.png'; // Caminho para o ícone de fechar
     } else {
-        menuIcon.src = '/assets/evento/img/menu.png'; // Caminho para o ícone de menu
+        menuIcon.src = './img/menu.png'; // Caminho para o ícone de menu
     }
 }
