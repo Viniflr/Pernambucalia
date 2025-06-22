@@ -23,7 +23,15 @@ Este projeto foi desenvolvido como parte de uma atividade escolar, visando:
 - Facilitar a navegação dos participantes durante o evento.
 - Praticar habilidades de desenvolvimento web com HTML, CSS e JavaScript.
 
-## Autores
+## 📄 Como Visualizar o Projeto
+
+Você pode acessar o site diretamente pelo GitHub Pages (caso esteja hospedado) ou clonar o repositório e abrir o arquivo `index.html` no navegador.
+```
+git clone [URL_DO_REPOSITÓRIO]
+cd pernambucalia
+```
+
+## Feito com 💙 por
 
 | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/119247208?s=400&u=a41a122510e3447159fb98c4797d79ff19b43e39&v=4" width=115><br><sub>Vinícius Fernandes</sub>](https://github.com/Viniflr) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/182443932?v=4" width=115><br><sub>Vanessa Trezena</sub>](https://github.com/Vanetrz) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/179982259?v=4" width=115><br><sub>Iago Nascimento</sub>](https://github.com/Iagoras) |
 | :---: | :---: | :---: |
